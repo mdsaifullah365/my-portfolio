@@ -1,5 +1,11 @@
+import { Sidebar } from './features/Sidebar';
+
 function App() {
-  return <p>Hello</p>;
+  return (
+    <>
+      <Sidebar />
+    </>
+  );
 }
 
 export default App;
