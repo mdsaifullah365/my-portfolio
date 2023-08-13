@@ -1,0 +1,42 @@
+/* Variables */
+:root {
+  /* Colors */
+  --primary-color: #2a2c39;
+  --secondary-color: #35bdd0;
+  --dark-color: #252734;
+  --medium-color: #282a37;
+  --light-color: #858792;
+  --neutral-color: #d9d9d9;
+
+  /* Width */
+  --sidebar-width: 80px;
+
+  /* Height */
+  --header-height: 80px;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  /* background-color: var(--primary-color); */
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
