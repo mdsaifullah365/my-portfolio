@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export default function Navlink({ link, text, icon }) {
   return (
     <li>

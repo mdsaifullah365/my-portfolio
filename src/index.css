@@ -53,8 +53,16 @@ body {
   width: 60%;
 }
 
+.content {
+  margin-left: var(--sidebar-width);
+}
+
 @media only screen and (max-width: 768px) {
   :root {
     --sidebar-width: 300px;
+  }
+
+  .content {
+    margin-left: 0;
   }
 }
